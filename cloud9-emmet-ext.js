@@ -81,7 +81,7 @@ define(function(require, exports, module) {
                     //mac: 'Command-Shift-E',
                     //win: 'Shift-Ctrl-E'
                     mac: 'Command-Tab',
-                    win: 'Ctrl-Tab'
+                    win: 'Tab'
                 },
                 isAvailable: function(editor) {
                     return true;
