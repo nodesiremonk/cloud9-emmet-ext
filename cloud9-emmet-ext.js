@@ -78,8 +78,10 @@ define(function(require, exports, module) {
                 hint: 'expands CSS-like abbreviations into HTML/XML/CSS code, depending on current document’s syntax.',
                 msg: 'Expanding abbreviation.',
                 bindKey: {
-                    mac: 'Command-Shift-E',
-                    win: 'Shift-Ctrl-E'
+                    //mac: 'Command-Shift-E',
+                    //win: 'Shift-Ctrl-E'
+                    mac: 'Tab',
+                    win: 'Tab'
                 },
                 isAvailable: function(editor) {
                     return true;
