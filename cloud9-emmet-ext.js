@@ -80,8 +80,8 @@ define(function(require, exports, module) {
                 bindKey: {
                     //mac: 'Command-Shift-E',
                     //win: 'Shift-Ctrl-E'
-                    mac: 'Command-Tab',
-                    win: 'Ctrl-Tab'
+                    mac: 'Command-Q',
+                    win: 'Alt-Q'
                 },
                 isAvailable: function(editor) {
                     return true;
